@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/677/923/non_2x/abstract-glowing-neon-black-background-design.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    color: black;
+    width: 100%;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    display: block; /* esta bloqueado para que ocupe espacio */
+}
+
+.palindromo {
+    background-color: #d4edda; /* Verde claro */
+    color: #155724; /* Color de texto oscuro */
+    border: 1px solid #c3e6cb; /* Borde verde */
+}
+
+.no-palindromo {
+    background-color: #f8d7da; /* Rojo claro */
+    color: #721c24; /* Color de texto oscuro */
+    border: 1px solid #f5c6cb; /* Borde rojo */
+}
+
+.oculto {
+    display: none; /* Oculto por defecto */
+}
+
+#adverencia {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    display: block; /*esta bloqueado para que ocupe espacio */
+}
+
+.advertencia {
+    background-color: #fff3cd; /* Amarillo claro */
+    color: #856404; /* Color de texto oscuro */
+    border: 1px solid #ffeeba; /* Borde amarillo */
+}
